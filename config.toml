@@ -1,0 +1,91 @@
+baseURL = "/"
+languageCode = "en-US"
+defaultContentLanguage = "oyo"
+
+title = "Securing your IaC pipeline and InfraStructure with Trend Micro - Cloud One"
+theme = "hugo-theme-learn"
+metaDataFormat = "yaml"
+defaultContentLanguageInSubdir= "false"
+uglyurls = "true"
+enableEmoji = true
+
+[params]
+  # Prefix URL to edit current page. Will display an "Edit this page" button on top right hand corner of every page. 
+  # Useful to give opportunity to people to create merge request for your doc.
+  # See the config.toml file from this documentation site to have an example.
+  #editURL = ""
+  # Author of the site, will be used in meta information
+  author = "Fernando Cardoso @ Trend Micro"
+  # Description of the site, will be used in meta information
+  description = "Learn how to automate the security into the IaC pipeline and how to bring a better visiblity for possible miconfiguration or possible drift compare with the AWS Well-Architected Framework"
+  # Shows a checkmark for visited pages on the menu
+  showVisitedLinks = true
+  # Disable search function. It will hide search bar
+  disableSearch = false
+  # Javascript and CSS cache are automatically busted when new version of site is generated. 
+  # Set this to true to disable this behavior (some proxies don't handle well this optimization)
+  disableAssetsBusting = false
+  # Set this to true to disable copy-to-clipboard button for inline code.
+  disableInlineCopyToClipBoard = false
+  # A title for shortcuts in menu is set by default. Set this to true to disable it. 
+  disableShortcutsTitle = false
+  # When using mulitlingual website, disable the switch language button.
+  disableLanguageSwitchingButton = false
+  # Hide breadcrumbs in the header and only show the current page title
+  disableBreadcrumb = false
+  # Hide Next and Previous page buttons normally displayed full height beside content
+  disableNextPrev = false
+  # Order sections in menu by "weight" or "title". Default to "weight"
+  ordersectionsby = "weight"
+  # Change default color scheme with a variant one. Can be "red", "blue", "green".
+  themeVariant = "mine"
+
+
+[outputs]
+home = [ "HTML", "RSS", "JSON"]
+
+[[menu.shortcuts]]
+name = "<i class='fas fa-tools'></i> AWS Builders Library"
+url = "https://aws.amazon.com/builders-library/"
+weight = 11
+
+[[menu.shortcuts]]
+name = "<i class='far fa-lightbulb'></i> Modernization with AWS"
+url = "https://aws.amazon.com/blogs/modernizing-with-aws/"
+weight = 20
+
+[[menu.shortcuts]]
+name = "<i class='fas fa-user-cog'></i> Trend Micro - Cloud One Trial"
+url = "https://cloudone.trendmicro.com/SignUp.screen#"
+weight = 21
+
+[[menu.shortcuts]]
+name = "<i class='fas fa-user-check'></i> AWS Marketplace"
+url = "https://aws.amazon.com/marketplace/pp/Trend-Micro-Trend-Micro-Cloud-One/B01LXMNGHB"
+weight = 22
+
+[[menu.shortcuts]]
+name = "<i class='fas fa-user-graduate'></i> DevOps Resource Center"
+url = "https://www.trendmicro.com/en_us/devops.html"
+weight = 23
+
+[[menu.shortcuts]]
+name = "<i class='fas fa-chalkboard-teacher'></i> Youtube - Cloud Operational Excellence"
+url = "https://www.youtube.com/watch?v=WXCGIPSaSVw&list=PLZm70v-MT4Jr98PN1ONSbDOfqbwGa2gtx&index=22"
+weight = 24
+
+[markup]
+  defaultMarkdownHandler = "blackfriday"
+  [markup.blackFriday]
+    hrefTargetBlank = true
+
+[Languages]
+[Languages.oyo]
+title = "MP DevOps Series"
+weight = 1
+languageName = "MP DevOps Series"
+
+[Languages.ee]
+title = "Event Engine"
+weight = 2
+languageName = "Event Engine"
