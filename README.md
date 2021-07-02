@@ -1,4 +1,4 @@
-# SECURING AWS INFRASTRUCTURE WITH TREND MICRO - CLOUD ONE
+# Securing AWS infrastructure with Trend Micro - Cloud One
 
 In this workshop, you’ll learn how to leverage infrastructure as code (IaC) and Security to automate your cloud security efforts. If you’re interested in making cloud security more efficient, automated, proactive, and accessible to developers, cloud architects, DevOps Engineer this workshop is for you!
 
