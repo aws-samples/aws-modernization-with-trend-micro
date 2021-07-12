@@ -21,7 +21,7 @@ It's very important you completed chapter 5 of the workshop before starting this
 
 We will use the Confomirty dashboard to search for the misconfigurations.
 
-#### 1. Log in to Trend Micro - Cloud One, select Conformity, select the account on your left that you have integrated for this workshop, and then click on "Browser All Checks"
+#### 1. Log in to Trend Micro - Cloud One, select Conformity, select the account on your left that you have integrated for this workshop, and then click on "Browse All Checks"
 
 ![la2_s3](/images/lab_s3_1.png)
 

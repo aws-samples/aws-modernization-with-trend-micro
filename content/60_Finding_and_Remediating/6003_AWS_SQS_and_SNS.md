@@ -13,7 +13,7 @@ Here is a valuable use case from AWS about why encrypting SQS and SNS is importa
 
 ![scenario2](/images/scenario3.png)
 
-#### 1. Log in to Trend Micro - Cloud One,  choose Conformity, select the account on your left that you have integrated for this workshop, and then click in Browser All Checks
+#### 1. Log in to Trend Micro - Cloud One,  choose Conformity, select the account on your left that you have integrated for this workshop, and then click in Browse All Checks
 
 ![la2_s3](/images/lab_s3_1.png)
 
