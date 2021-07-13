@@ -180,7 +180,7 @@ You will need to add the following line to fix the two <b>HIGH</b> issues found 
 
 {{% notice warning %}}
 <p style='text-align: left;'>
-Recommendation: Change the Amazon S3 bucket name to a unique nam—since it's a global resource, it cannot have a duplicated name.
+Recommendation: Change the Amazon S3 bucket name to a unique name — since it's a global resource, it cannot have a duplicated name.
 </p>
 {{% /notice %}}
 

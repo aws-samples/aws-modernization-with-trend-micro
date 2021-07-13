@@ -9,12 +9,14 @@ pre: "<b>3. </b>"
 
 First you will need to install the VSCode IDE in your machine to install the Cloud Conformity Security Plugin as you can see here: [Link](https://marketplace.visualstudio.com/items?itemName=raphaelbottino.cc-template-scanner)
 
+- Click on **Install** after opening the link from Cloud Conformity Plugin provide above and it will automatically download the plugin for the Visual Studio Code in your machine that you have installed in the Prequisites session:
+
 ![IDE1](/images/IDE1.png)
 
 
 ### Enabling the API Token to scan AWS CloudFormation Templates on the IDE
 
-Second you will need to create one account in Conformity using this link here (Create Account), login into your account, and generate an API Token.
+Second you will need to create one account in Conformity using this link here [Create Account](https://cloudone.trendmicro.com/SignUp.screen#), login into your account, and generate an API Token.
 
 Log in to Trend Micro <b>Cloud One Platform</b>:
 
@@ -37,7 +39,7 @@ Remember to copy the key and save it safely. You won't be able to get it again.
 ![API2](/images/API2.png)
 
 Now you will be able to scan the CloudFormation templates based on hundreds of checks that help you comply with the AWS Well-Architected Framework among others standards and frameworks to ensure you are building superior cloud infrastructure.
-Here is one example of a <b>bad</b> CloudFormation template <b>NOT</b> following theengineering best practices for you to test:
+Here is one example of a <b>bad</b> CloudFormation template <b>NOT</b> following the engineering best practices for you to test:
 
 
 ```

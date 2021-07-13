@@ -12,7 +12,7 @@ In this scenario, we have a use case where a customer accidentally created an IA
 ![scenario2](/images/scenario2.png)
 
 
-#### 1. Log in to Trend Micro Cloud One, choose Conformity, select the account on your left that you have integrated for this workshop, and then click Browser All Checks
+#### 1. Log in to Trend Micro Cloud One, choose Conformity, select the account on your left that you have integrated for this workshop, and then click Browse All Checks
 
 ![la2_s3](/images/lab_s3_1.png)
 
