@@ -52,7 +52,10 @@ The first release that automatically kicked-off failed. To see more details, cli
 
 ![create8](/images/create_stack8.png)
 
-You will see more information about the build stage of the template scanner. Now, you will need to click the <b>Build details</b> tab, scroll down to <b>Artifacts</b>, and click the <b>artifact link</b> that was uploaded to the Amazon Simple Storage Service (S3) bucket.
+Conformity has generated findings as an artifiact for the failed build, you will see more information about the build stage of the template scanner following the steps below: 
+
+- Click the <b>Build details</b> tab, scroll down to <b>Artifacts</b>
+- After click the <b>artifact link</b> that was uploaded to the Amazon Simple Storage Service (S3) bucket.
 
 ![create9](/images/create_stack9.png)
 
@@ -166,17 +169,7 @@ Click on <b>cloudformation.yml</b> and then click <b>Edit</b> - you will see the
 
 ![create11](/images/create_stack11.png)
 
-You will need to add the following line to fix the two <b>HIGH</b> issues found by the Conformity Template Scanner. Add the code below after line 29:
-
-      BucketEncryption: 
-        ServerSideEncryptionConfiguration: 
-        - ServerSideEncryptionByDefault:
-            SSEAlgorithm: AES256
-      PublicAccessBlockConfiguration:
-        BlockPublicAcls: true
-        BlockPublicPolicy: true
-        IgnorePublicAcls: true
-        RestrictPublicBuckets: true
+You will need to update the current CloudFormation template that you have with the new one that we updated below. This new CloudFormation has the goal to fix the two <b>HIGH</b> issues found by the Conformity Template Scanner.
 
 {{% notice warning %}}
 <p style='text-align: left;'>
@@ -191,7 +184,7 @@ The Image ID used is from us-east-1 in AWS. If you are using a different region 
 </p>
 {{% /notice %}}
 
-After adding the lines above your CloudFormation template, it should look like this:
+Copy and paste this new CloudFormation template in your environment:
 
         Resources:
         Ec2Instance:
@@ -234,6 +227,25 @@ After adding the lines above your CloudFormation template, it should look like t
                 - 
                 Key: "Environment"
                 Value: "ModernizationWorkshop"
+
+
+
+      BucketEncryption: 
+        ServerSideEncryptionConfiguration: 
+        - ServerSideEncryptionByDefault:
+            SSEAlgorithm: AES256
+      PublicAccessBlockConfiguration:
+        BlockPublicAcls: true
+        BlockPublicPolicy: true
+        IgnorePublicAcls: true
+        RestrictPublicBuckets: true
+
+
+{{% notice note %}}
+<p style='text-align: left;'>
+In the new CFT we added two configurations to fix the issue "BucketEncryption" and "PublicAccessBlockConfiguration".
+</p>
+{{% /notice %}}
 
 
 Now you will just need to add the information requested for the commit and click in <b>Commit Changes</b>, this way the pipeline will kick-off automatically because of the changes happening:
