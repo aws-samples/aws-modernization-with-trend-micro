@@ -12,7 +12,7 @@ After you create a Trend Micro Cloud One account, the next step is to integrate 
 
 #### Log in to Trend Micro Cloud One and go to Conformity
 
-Upon signing into Trend Micro Cloud One, you’ll be prompted to select between the six security solutions in Trend Micro Cloud One platform. Today, we will be using Conformity
+Upon signing into Trend Micro Cloud One, you’ll be prompted to select between the seven security solutions in Trend Micro Cloud One platform. Today, we will be using Conformity
 
 ![Integration1](/images/integration1.png) 
 

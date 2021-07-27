@@ -17,6 +17,13 @@ Let's build the CloudFormation template:
 
 Go to AWS Console and search for CloudFormation and after click in <b>Create Stack</b>
 
+{{% notice note %}}
+<p style='text-align: left;'>
+Make sure you are using the <b>us-east-1</b> in AWS. If you are using a different region to deploy the CloudFormation template, please use the proper Image ID from the region that you are using.
+This CloudFormation template has some dependencies with us-east-1. 
+</p>
+{{% /notice %}}
+
 ![create](/images/create_stack.png)
 
 Save the CloudFormation template provided in the Git Repository before, or you can use the GIST link here to easily get the file: [GitHub Gist Link](https://gist.github.com/fernandostc/be67b1a0be68c4f53968e3e7ad82f84a)

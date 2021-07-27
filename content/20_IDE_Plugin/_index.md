@@ -41,6 +41,13 @@ Remember to copy the key and save it safely. You won't be able to get it again.
 Now you will be able to scan the CloudFormation templates based on hundreds of checks that help you comply with the AWS Well-Architected Framework among others standards and frameworks to ensure you are building superior cloud infrastructure.
 Here is one example of a <b>bad</b> CloudFormation template <b>NOT</b> following the engineering best practices for you to test:
 
+{{% notice note %}}
+<p style='text-align: left;'>
+Copy the CloudFormation template example below and save the file with the YAML format (.yml).
+If you do not save the file, the template scanner will fail.
+</p>
+{{% /notice %}}
+
 
 ```
 #This is an CloudFormation template example NOT following the AWS Well-Architected Framework  

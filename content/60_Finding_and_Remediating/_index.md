@@ -46,6 +46,16 @@ We have prepared a CloudFormation template with some common use cases of misconf
 - After a couple of minutes, the stack will be completed, and you will be able to start the labs
 ![Populating_AWS_6](/images/populating6_new.png)
 
+{{% notice note %}}
+<p style='text-align: left;'>
+Because we are not using the Realtime monitoring in Cloud One - Conformity in this lab will be important to manually force a Conformity check scan to recognize all the new resource created from the CloudFormation template. If not it will take a couple of minutes to run the hourly Conformity check.  
+</p>
+{{% /notice %}}
+
+- Log in  Cloud One account, select Conformity, select your AWS account on the left side, and then click on Run Conformity Bot. It will force a full Conformity check in your AWS account. 
+
+![la2_s3](/images/lab_s3_7.png)
+
 ----------------------------------------------------------------------------------------------------------------------
 
 -  <b>Scanning IaC CloudFormation template and fixing it</b>
