@@ -18,7 +18,7 @@ Now that you tried Conformity feel free to try the rest of the Cloud One service
 
 [Cloud One Home](https://cloudone.trendmicro.com/home)
 
-![Conclusion1](/images/conclusion1.png) 
+![Conclusion1](/images/c1c_7.png) 
 
 --------
 

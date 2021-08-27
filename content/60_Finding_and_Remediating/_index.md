@@ -20,7 +20,15 @@ We have prepared a CloudFormation template with some common use cases of misconf
     - Unencrypted SQS queue
     - SNS Topics Disable
 
-:warning: For the first three labs you will need to deploy this CloudFormation stack: <b>[LINK](https://trend-aws-security-immersion-day.s3.amazonaws.com/template.json)</b>
+:warning: **For the these labs above you will need to deploy this CloudFormation stack, below:**
+
+[![Launch Stack](https://cdn.rawgit.com/buildkite/cloudformation-launch-stack-button-svg/master/launch-stack.svg)](https://console.aws.amazon.com/cloudformation/home#/stacks/new?stackName=AWS-Modernization-Workshop-labs&templateURL=https://trend-aws-security-immersion-day.s3.amazonaws.com/template.json)
+
+or 
+
+You can get the CloudFormation Template for the labs using this [Link](https://trend-aws-security-immersion-day.s3.amazonaws.com/template.json)
+
+---
 
 #### Populating the AWS account with misconfigurations for the labs
 
@@ -34,7 +42,7 @@ We have prepared a CloudFormation template with some common use cases of misconf
 - Paste the link into <b>Amazon S3 URL</b> field and click <b>Next</b>:
 ![Populating_AWS_2](/images/populating2.png)
 
-- Set up the name of the CloudFormation stack as <b>AWS-Modernization-Workshop-labs<b>
+- Set up the name of the CloudFormation stack as <b>AWS-Modernization-Workshop-labs</b>
 ![Populating_AWS_3](/images/populating3_new.png)
 
 - Click <b>Next</b>
@@ -54,9 +62,11 @@ Because we are not using the Realtime monitoring in Cloud One - Conformity in th
 
 - Log in  Cloud One account, select Conformity, select your AWS account on the left side, and then click on Run Conformity Bot. It will force a full Conformity check in your AWS account. 
 
-![la2_s3](/images/lab_s3_7.png)
+![la2_s3](/images/run_scan.png)
 
 ----------------------------------------------------------------------------------------------------------------------
+
+#### Extra Lab - Scanning CloudFormation Template with some misconfigurations
 
 -  <b>Scanning IaC CloudFormation template and fixing it</b>
     - Enable Amazon S3 Block Public Access for Amazon S3 buckets
@@ -66,4 +76,8 @@ Because we are not using the Realtime monitoring in Cloud One - Conformity in th
 
 :warning: For the template scanner you will need to download this CloudFormation template to use in your IDE for the exercise ->  <b>[LINK](https://trend-aws-security-immersion-day.s3.amazonaws.com/lab5.template.yaml) </b>
 
-Let's start those exercises :laptop:
+:warning: <b>This is a great challenge for you to learn more about how to see misconfigurations in the early stage of the IaC pipeline with our IDE Security Plugin.</b>
+
+---
+
+Let's start remediating the misconfiguration issues in the AWS Account. :laptop:

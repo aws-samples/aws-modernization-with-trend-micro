@@ -20,15 +20,27 @@ Second you will need to create one account in Conformity using this link here [C
 
 Log in to Trend Micro <b>Cloud One Platform</b>:
 
-1. Click in <b>Conformity</b> service
-2. Click the <b>Username</b> on the top right
-3. Then click in <b>User Settings</b>
-4. Click <b>API Keys</b> on the left
-5. Finally click in <b>New API Key</b> to create one to be used in the VSCode plugin.
+**1.** Click on the bottom left User Management 
+![IDE1](/images/c1c_api_1.png)
 
+**2.** Click the <b>API Key</b> icon on the left side
+![IDE1](/images/c1c_api_2.png)
+
+**3.** Click on <b>New</b> to create the API Key
+![IDE1](/images/c1c_api_3.png)
+
+**4.** Select Read Only Access Role, the prefer language for you and the prefer Timezone. After you can click Next
+![IDE1](/images/c1c_api_4.png)
+
+**5.** This will generate the API Key you will need to click Copy to Clipboard and save it properly. Because after you close this screen you will not be able to retrieve it later.
+
+{{% notice tip %}}
+<p style='text-align: left;'>
 Remember to copy the key and save it safely. You won't be able to get it again.
+</p>
+{{% /notice %}}
 
-![API](/images/API.png)
+![IDE1](/images/c1c_api_5.png)
 
 #### Copy the API Key and go back to VSCode IDE 💻
 
