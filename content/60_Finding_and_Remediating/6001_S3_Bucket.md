@@ -41,6 +41,12 @@ After you complete the configurations, click <b>Filter Check</b> again
 
 ![la2_s3](/images/lab_s3_3.png)
 
+{{% notice warning %}}
+<p style='text-align: left;'><b>
+If after applying the filter Tag the resource are not showing, it's because you need to force a Run Conformity Bot in the main dashboard as described here <a href="/60_finding_and_remediating.html#force-run-conformity-bot"> Run Conformity Bot </a>
+</b></p>
+{{% /notice %}}
+
 #### 4. How to look for the specific Conformity check to properly perform remediation
 
 Locate the two Conformity checks that pertain to the misconfigurations of this scenario ([S3 Bucket Public Access Via Policy](https://www.cloudconformity.com/knowledge-base/aws/S3/s3-bucket-public-access-via-policy.html#102741628407) and [Server Side Encryption](https://www.cloudconformity.com/knowledge-base/aws/S3/server-side-encryption.html#102741628407)). Next to each, select <b>Resolve</b>, which will populate the step-by-step instructions for remediating these misconfigurations.  

@@ -60,6 +60,10 @@ Because we are not using the Realtime monitoring in Cloud One - Conformity in th
 </p>
 {{% /notice %}}
 
+---
+
+### Force Run Conformity Bot
+
 - Log in  Cloud One account, select Conformity, select your AWS account on the left side, and then click on Run Conformity Bot. It will force a full Conformity check in your AWS account. 
 
 ![la2_s3](/images/run_scan.png)
