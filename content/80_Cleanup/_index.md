@@ -10,6 +10,8 @@ pre: "<b>9. </b>"
 You should have all these 4 CloudFormation stacks based in the labs, now we will need to delete them:
 ![Cleanup](/images/cleanup.png) 
 
+---
+
 ### CI/CD Pipeline - CloudFormation
 
 Based in the <b>Lab 4 IaC Pipeline with Security</b> you should have two CloudFormation stacks from this lab:
@@ -23,6 +25,7 @@ You will need to delete the <b>modernization-workshop-cft-example</b> stack firs
 
 You could go to CloudFormation console and delete those stacks through the console or using the AWS cli.
 
+----
 
 ### Cloud One - Conformity - CloudFormation
 
@@ -36,6 +39,7 @@ If you keep this CloudFormation stack integrated with your account it will keep 
 </p>
 {{% /notice %}}
 
+----
 
 ### Exercise labs - CloudFormation
 
@@ -43,7 +47,30 @@ Based in the <b>Lab 7 Finding and Remediating Misconfigurations</b> you should h
 
 You could go to CloudFormation console and delete those stacks through the console or using the AWS cli.
 
-
 ------
 
 Now that you deleted all the CloudFormation stacks from the labs you can test the others Cloud One sercurity services. 
+
+---
+
+### Unsubscribe Cloud One subscription in your AWS Account
+
+**1.** Go to AWS account and search for AWS Marketplace Subscription.
+![Cleanup](/images/unsubscribe1.png)
+
+
+**2.** Find the Trend Micro Cloud One subscription and click on Manage.
+![Cleanup](/images/unsubscribe2.png)
+
+
+**3.** Then click Action, Cancel subscription
+![Cleanup](/images/unsubscribe3.png)
+
+
+**4.** You will need to check the box and click on "Yes, cancel subscription"
+![Cleanup](/images/unsubscribe4.png)
+
+**5.** You will see a confirmation message like this one, below:
+![Cleanup](/images/unsubscribe5.png)
+
+**You will see the update in the Cloud One console in around 1 to 2 hours.**
