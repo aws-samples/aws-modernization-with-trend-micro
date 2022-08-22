@@ -18,7 +18,7 @@ Let's build the CloudFormation template:
 
 **1.** Click on the button below to deploy the stack in AWS CloudFormation
 
-[![Launch Stack](https://cdn.rawgit.com/buildkite/cloudformation-launch-stack-button-svg/master/launch-stack.svg)](https://console.aws.amazon.com/cloudformation/home#/stacks/new?stackName=ModernizationWorkshop&templateURL=https://workshop-devsecops-c1-cft-templates.s3.amazonaws.com/CFT_EKS.yaml)
+[![Launch Stack](https://cdn.rawgit.com/buildkite/cloudformation-launch-stack-button-svg/master/launch-stack.svg)](https://console.aws.amazon.com/cloudformation/home#/stacks/new?stackName=ModernizationWorkshop&templateURL=https://aws-and-trendmicro-modernization-workshop.s3.amazonaws.com/cloudformation_automated_iac.yml)
 
 {{% notice note %}}
 <p style='text-align: left;'>
@@ -32,7 +32,7 @@ If you want to check the CloudFormation Template content click on the link here 
 ---
 
 **2.** On this page click on the **Next** button 
-![create1](/images/create_stack1.png)
+![create1](/images/create_stack1.PNG)
 
 ---
 
