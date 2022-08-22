@@ -16,7 +16,9 @@ Let's build the CloudFormation template:
 
 #### Create Stack
 
-**1.** Go to AWS Console and search for CloudFormation and after click in <b>Create Stack</b>
+**1.** Click on the button below to deploy the stack in AWS CloudFormation
+
+[![Launch Stack](https://cdn.rawgit.com/buildkite/cloudformation-launch-stack-button-svg/master/launch-stack.svg)](https://console.aws.amazon.com/cloudformation/home#/stacks/new?stackName=ModernizationWorkshop&templateURL=https://aws-and-trendmicro-modernization-workshop.s3.amazonaws.com/cloudformation_automated_iac.yml)
 
 {{% notice note %}}
 <p style='text-align: left;'>
@@ -25,14 +27,12 @@ This CloudFormation template has some dependencies with us-east-1.
 </p>
 {{% /notice %}}
 
-![create](/images/create_stack.png)
-
-Save the CloudFormation template provided in the Git Repository before, or you can use the GIST link here to easily get the file: [GitHub Gist Link](https://gist.github.com/fernandostc/be67b1a0be68c4f53968e3e7ad82f84a)
+If you want to check the CloudFormation Template content click on the link here to easily see the file on GitHub GIST: [GitHub Gist Link](https://gist.github.com/fernandostc/be67b1a0be68c4f53968e3e7ad82f84a)
 
 ---
 
-**2.** After upload the CloudFormation template to AWS click in <b>Next</b>
-![create1](/images/create_stack1.png)
+**2.** On this page click on the **Next** button 
+![create1](/images/create_stack1.PNG)
 
 ---
 
@@ -281,17 +281,11 @@ Let's do the fixes in the CloudFormation then. :computer:
 Search for <b>CodeCommit</b> and then click the <b>CloudFormationRepo</b> that was created by the CloudFormation template earlier.
 Click on <b>cloudformation.yml</b> and then click <b>Edit</b> - you will see the following CloudFormation template for us to fix:
 
-![create11](/images/create_stack11.png)
+![create11](/images/create_stack11.PNG)
 
 ---
 
 **12.** You will need to update the current CloudFormation template that you have with the new one that we updated below. This new CloudFormation has the goal to fix the two <b>HIGH</b> issues found by the Conformity Template Scanner.
-
-{{% notice warning %}}
-<p style='text-align: left;'>
-Recommendation: <strong>Change the Amazon S3 bucket name to a unique name</strong> — since it's a global resource, it cannot have a duplicated name.
-</p>
-{{% /notice %}}
 
 
 {{% notice note %}}
@@ -331,7 +325,6 @@ The Image ID used is from us-east-1 in AWS. If you are using a different region 
       S3Bucket:
         Type: AWS::S3::Bucket
         Properties:
-          BucketName: test-modernization-workshop
           PublicAccessBlockConfiguration:
             BlockPublicAcls: true
             BlockPublicPolicy: true
@@ -359,7 +352,7 @@ In the new CFT we added two configurations to fix the issue "BucketEncryption" a
 **14.** Now you will just need to add the information requested for the commit and click in <b>Commit Changes</b>, this way the pipeline will kick-off automatically because of the changes happening:
 
 
-![create12](/images/create_stack12.png)
+![create12](/images/create_stack12.PNG)
 
 ---
 
@@ -384,7 +377,7 @@ The CloudFormation template will be creating a Amazon S3 bucket, a security grou
 </p>
 {{% /notice %}}
 
-![create14](/images/create_stack_add_detail_3.png)
+![create14](/images/create_stack_add_detail_3.PNG)
 
 {{% notice warning %}}
 <p style='text-align: left;'>
