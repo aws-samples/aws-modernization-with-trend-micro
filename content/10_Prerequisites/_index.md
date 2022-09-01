@@ -78,30 +78,35 @@ We have two ways to help customers with Free trial:
   <summary> -> <code>CLICK HERE</code> to see the steps-by-steps on how to <strong>create your Cloud One Account</strong> </summary>
 
 
-**1.** Go to [Register for a free trial](https://cloudone.trendmicro.com/register), fill-up the form details and click Sign Up.
-![C1C](/images/c1c_1.png)
+**1.** Go to [Register for a free trial](https://www.trendmicro.com/en_us/business/campaigns/cloud-one-trial.html?utm_campaign=RGEV2022_Cloud-One_SMKT&utm_medium=Webinar&utm_source=Immersion-Day_Conformity_PR&utm_content=Cloud-One-Trial), and click on the button **Start your free trial**
 
-**2.** After you will see a message about your Sign Up in Cloud One.
+
+![C1C](/images/freetrial1.PNG)
+
+**2.** Fill-up the form details and click Sign Up.
+
+![C1C](/images/freetrial2.PNG)
+**4.** After that you will see a message about your Sign Up in Cloud One.
 
 ![C1C](/images/c1c_2.png)
 
-**3.** Go to your mailbox from the email that you used to register in Cloud One and verify your registration from Cloud One. The email will look like the below example, you will just need to click Verify Email.
+**4.** Go to your mailbox from the email that you used to register in Cloud One and verify your registration from Cloud One. The email will look like the below example, you will just need to click Verify Email.
 
 ![C1C](/images/c1c_3.png)
 
-**4.** Now you will need to sign in to complete the verification process. 
+**5.** Now you will need to sign in to complete the verification process. 
 
 ![C1C](/images/c1c_4.png)
 
-**5.** You will need to create an Account Alias, in our case I'm using <code>Modernization_Workshop</code>,  after choose which region you would like to hosted your data from Cloud One, then click Continue.
+**6.** You will need to create an Account Alias, in our case I'm using <code>Modernization_Workshop</code>,  after choose which region you would like to hosted your data from Cloud One, then click Continue.
 
 ![C1C](/images/c1c_5.png)
 
-**6.** Choose the account that you just create and then click Go.
+**7.** Choose the account that you just create and then click Go.
 
 ![C1C](/images/c1c_6.png)
 
-**7.** Now you are log in Trend Micro Cloud One Platform 
+**8.** Now you are log in Trend Micro Cloud One Platform 
 
 ![C1C](/images/c1c_7.png)
 

@@ -16,7 +16,7 @@ First you will need to install the VSCode IDE in your machine to install the Clo
 
 ### Enabling the API Token to scan AWS CloudFormation Templates on the IDE
 
-Second you will need to create one account in Conformity using this link here [Create Account](https://cloudone.trendmicro.com/SignUp.screen#), login into your account, and generate an API Token.
+Second you will need to create one account in Conformity using this link here [Create Account](https://www.trendmicro.com/en_us/business/campaigns/cloud-one-trial.html?utm_campaign=RGEV2022_Cloud-One_SMKT&utm_medium=Webinar&utm_source=Immersion-Day_Conformity_PR&utm_content=Cloud-One-Trial), login into your account, and generate an API Token.
 
 Log in to Trend Micro <b>Cloud One Platform</b>:
 
