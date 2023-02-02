@@ -281,7 +281,7 @@ Let's do the fixes in the CloudFormation then. :computer:
 Search for <b>CodeCommit</b> and then click the <b>CloudFormationRepo</b> that was created by the CloudFormation template earlier.
 Click on <b>cloudformation.yml</b> and then click <b>Edit</b> - you will see the following CloudFormation template for us to fix:
 
-![create11](/images/create_stack11.PNG)
+![create11](/images/create_stack11_updated.PNG)
 
 ---
 
@@ -298,47 +298,49 @@ The Image ID used is from us-east-1 in AWS. If you are using a different region 
 
 **13.** Copy and paste this new CloudFormation template in your environment:
 
-    Resources:
-      Ec2Instance:
-        Type: 'AWS::EC2::Instance'
-        Properties:
-          SecurityGroups:
-          - Ref: InstanceSecurityGroup
-          ImageId: ami-0742b4e673072066f
-          Tags:
-            - 
-              Key: "Environment"
-              Value: "ModernizationWorkshop"
-      InstanceSecurityGroup:
-        Type: 'AWS::EC2::SecurityGroup'
-        Properties:
-          GroupDescription: Enable SSH access via port 22 test 
-          SecurityGroupIngress:
-            - IpProtocol: tcp
-              FromPort: 22
-              ToPort: 22
-              CidrIp: 0.0.0.0/0
-          Tags:
-           - 
-              Key: "Environment"
-              Value: "ModernizationWorkshop"
-      S3Bucket:
-        Type: AWS::S3::Bucket
-        Properties:
-          PublicAccessBlockConfiguration:
-            BlockPublicAcls: true
-            BlockPublicPolicy: true
-            IgnorePublicAcls: true
-            RestrictPublicBuckets: true
-          BucketEncryption: 
-            ServerSideEncryptionConfiguration: 
-            - ServerSideEncryptionByDefault:
-                SSEAlgorithm: AES256
-          Tags:
-            - 
-              Key: "Environment"
-              Value: "ModernizationWorkshop"
-      
+```
+Resources:
+  Ec2Instance:
+    Type: 'AWS::EC2::Instance'
+    Properties:
+      InstanceType: t3.micro
+      SecurityGroups:
+      - Ref: InstanceSecurityGroup
+      ImageId: resolve:ssm:/aws/service/ami-amazon-linux-latest/amzn2-ami-hvm-x86_64-gp2
+      Tags:
+        - 
+          Key: "Environment"
+          Value: "ModernizationWorkshop"
+  InstanceSecurityGroup:
+    Type: 'AWS::EC2::SecurityGroup'
+    Properties:
+      GroupDescription: Enable SSH access via port 22 test 
+      SecurityGroupIngress:
+        - IpProtocol: tcp
+          FromPort: 22
+          ToPort: 22
+          CidrIp: 0.0.0.0/0
+      Tags:
+       - 
+          Key: "Environment"
+          Value: "ModernizationWorkshop"
+  S3Bucket:
+    Type: AWS::S3::Bucket
+    Properties:
+      PublicAccessBlockConfiguration:
+        BlockPublicAcls: true
+        BlockPublicPolicy: true
+        IgnorePublicAcls: true
+        RestrictPublicBuckets: true
+      BucketEncryption: 
+        ServerSideEncryptionConfiguration: 
+        - ServerSideEncryptionByDefault:
+            SSEAlgorithm: AES256
+      Tags:
+        - 
+          Key: "Environment"
+          Value: "ModernizationWorkshop"
+```
 
 {{% notice note %}}
 <p style='text-align: left;'>
