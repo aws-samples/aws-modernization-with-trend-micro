@@ -307,7 +307,7 @@ The Image ID used is from us-east-1 in AWS. If you are using a different region 
             - Ref: InstanceSecurityGroup
             ImageId: resolve:ssm:/aws/service/ami-amazon-linux-latest/amzn2-ami-hvm-x86_64-gp2
             Tags:
-                - 
+            - 
                 Key: "Environment"
                 Value: "ModernizationWorkshop"
         InstanceSecurityGroup:
@@ -315,7 +315,7 @@ The Image ID used is from us-east-1 in AWS. If you are using a different region 
             Properties:
             GroupDescription: Enable SSH access via port 22 test 
             SecurityGroupIngress:
-                - IpProtocol: tcp
+              - IpProtocol: tcp
                 FromPort: 22
                 ToPort: 22
                 CidrIp: 0.0.0.0/0
@@ -326,21 +326,23 @@ The Image ID used is from us-east-1 in AWS. If you are using a different region 
         S3Bucket:
             Type: AWS::S3::Bucket
             Properties:
-            PublicAccessBlockConfiguration:
-                BlockPublicAcls: true
-                BlockPublicPolicy: true
-                IgnorePublicAcls: true
-                RestrictPublicBuckets: true
-            BucketEncryption: 
-                ServerSideEncryptionConfiguration: 
-                - ServerSideEncryptionByDefault:
-                    SSEAlgorithm: AES256
+                PublicAccessBlockConfiguration:
+                    BlockPublicAcls: true
+                    BlockPublicPolicy: true
+                    IgnorePublicAcls: true
+                    RestrictPublicBuckets: true
+                BucketEncryption: 
+                    ServerSideEncryptionConfiguration: 
+                    - ServerSideEncryptionByDefault:
+                        SSEAlgorithm: AES256
             Tags:
-                - 
+            - 
                 Key: "Environment"
                 Value: "ModernizationWorkshop"
+                Type: AWS::S3::Bucket
+                Properties:
 
-      
+
 
 {{% notice note %}}
 <p style='text-align: left;'>
