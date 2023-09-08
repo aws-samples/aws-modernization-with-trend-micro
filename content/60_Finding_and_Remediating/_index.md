@@ -37,7 +37,7 @@ You can get the CloudFormation Template for the labs using this [Link](https://i
 - Select <b>Create stack</b> and then <b>With new resources</b> from the drop-down menu
 ![Populating_AWS](/images/populating.png)
 
-- Use the following CloudFormation template link to create the stack in the AWS account: https://trend-aws-security-immersion-day.s3.amazonaws.com/template.json
+- Use the above CloudFormation template link to create the stack in the AWS account.
 
 - Paste the link into <b>Amazon S3 URL</b> field and click <b>Next</b>:
 ![Populating_AWS_2](/images/populating2.png)
