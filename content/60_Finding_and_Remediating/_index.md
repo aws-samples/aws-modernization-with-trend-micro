@@ -22,11 +22,11 @@ We have prepared a CloudFormation template with some common use cases of misconf
 
 :warning: **For the these labs above you will need to deploy this CloudFormation stack, below:**
 
-[![Launch Stack](https://cdn.rawgit.com/buildkite/cloudformation-launch-stack-button-svg/master/launch-stack.svg)](https://console.aws.amazon.com/cloudformation/home#/stacks/new?stackName=AWS-Modernization-Workshop-labs&templateURL=https://trend-aws-security-immersion-day.s3.amazonaws.com/template.json)
+[![Launch Stack](https://cdn.rawgit.com/buildkite/cloudformation-launch-stack-button-svg/master/launch-stack.svg)](https://console.aws.amazon.com/cloudformation/home#/stacks/new?stackName=AWS-Modernization-Workshop-labs&templateURL=https://immersionday-workshops-trendmicro.s3.amazonaws.com/conformity/main.template.yaml)
 
 or 
 
-You can get the CloudFormation Template for the labs using this [Link](https://trend-aws-security-immersion-day.s3.amazonaws.com/template.json)
+You can get the CloudFormation Template for the labs using this [Link](https://immersionday-workshops-trendmicro.s3.amazonaws.com/conformity/main.template.yaml)
 
 ---
 
