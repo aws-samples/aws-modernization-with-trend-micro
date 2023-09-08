@@ -15,7 +15,7 @@ enableEmoji = true
   # See the config.toml file from this documentation site to have an example.
   #editURL = ""
   # Author of the site, will be used in meta information
-  author = "Fernando Cardoso @ Trend Micro"
+  author = "Justin Perkins/Fernando Cardoso @ Trend Micro"
   # Description of the site, will be used in meta information
   description = "Learn how to automate the security into the IaC pipeline and how to bring a better visiblity for possible miconfiguration or possible drift compare with the AWS Well-Architected Framework"
   # Shows a checkmark for visited pages on the menu
