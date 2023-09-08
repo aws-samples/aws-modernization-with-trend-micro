@@ -86,6 +86,7 @@ For any additional help please reach out to:
 
 - Fernando Cardoso - (fernando_cardoso@trendmicro.com)
 - Felipe Costa - (felipe_costa@trendmicro.com)
+- Justin Perkins - (justin_perkins@trendmicro.com)
 
 <p>
 <a  href="mailto:fernando_cardoso@trendmicro.com;felipe_costa@trendmicro.com?subject=Feedback Securing AWS Infrastructure with Trend Micro - Cloud One - Workshop"  target="_blank" rel="noopener noreferrer"  class="btn btn-default">  
