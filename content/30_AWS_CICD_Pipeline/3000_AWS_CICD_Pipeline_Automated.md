@@ -18,7 +18,7 @@ Let's build the CloudFormation template:
 
 **1.** Click on the button below to deploy the stack in AWS CloudFormation
 
-[![Launch Stack](https://cdn.rawgit.com/buildkite/cloudformation-launch-stack-button-svg/master/launch-stack.svg)](https://console.aws.amazon.com/cloudformation/home#/stacks/new?stackName=ModernizationWorkshop&templateURL=https://aws-and-trendmicro-modernization-workshop.s3.amazonaws.com/cloudformation_automated_iac.yml)
+[![Launch Stack](https://cdn.rawgit.com/buildkite/cloudformation-launch-stack-button-svg/master/launch-stack.svg)](https://console.aws.amazon.com/cloudformation/home#/stacks/new?stackName=ModernizationWorkshop&templateURL=https://immersionday-workshops-trendmicro.s3.amazonaws.com/conformity/cloudformation_automated_iac.yml)
 
 {{% notice note %}}
 <p style='text-align: left;'>
@@ -27,7 +27,7 @@ This CloudFormation template has some dependencies with us-east-1.
 </p>
 {{% /notice %}}
 
-If you want to check the CloudFormation Template content click on the link here to easily see the file on GitHub GIST: [GitHub Gist Link](https://gist.github.com/fernandostc/be67b1a0be68c4f53968e3e7ad82f84a)
+If you want to download the CloudFormation Template content click on the [link here](https://immersionday-workshops-trendmicro.s3.amazonaws.com/conformity/cloudformation_automated_iac.yml)
 
 ---
 

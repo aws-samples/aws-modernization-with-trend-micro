@@ -37,7 +37,7 @@ You can get the CloudFormation Template for the labs using this [Link](https://i
 - Select <b>Create stack</b> and then <b>With new resources</b> from the drop-down menu
 ![Populating_AWS](/images/populating.png)
 
-- Use the following CloudFormation template link to create the stack in the AWS account: https://trend-aws-security-immersion-day.s3.amazonaws.com/template.json
+- Use the above CloudFormation template link to create the stack in the AWS account.
 
 - Paste the link into <b>Amazon S3 URL</b> field and click <b>Next</b>:
 ![Populating_AWS_2](/images/populating2.png)
@@ -78,7 +78,7 @@ Because we are not using the Realtime monitoring in Cloud One - Conformity in th
     - Amazon S3 Bucket Logging Enabled
     - VPC Flow Logs Enabled
 
-:warning: For the template scanner you will need to download this CloudFormation template to use in your IDE for the exercise ->  <b>[LINK](https://trend-aws-security-immersion-day.s3.amazonaws.com/lab5.template.yaml) </b>
+:warning: For the template scanner you will need to download this CloudFormation template to use in your IDE for the exercise ->  <b>[LINK](https://immersionday-workshops-trendmicro.s3.amazonaws.com/conformity/lab5.template.yaml) </b>
 
 :warning: <b>This is a great challenge for you to learn more about how to see misconfigurations in the early stage of the IaC pipeline with our IDE Security Plugin.</b>
 
